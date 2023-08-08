@@ -1,0 +1,185 @@
+:root {
+    --primary-font: 'Roboto', sans-serif;
+    --primary-grey-color: #434455;
+    --primary-black-color: #2e2f42;
+    --primary-white-color: #fff;
+    --active-link-color: #404bbf;
+    --primary-grey-second-color: #f4f4fd;
+    --primary-blue-color: #4d5ae5;
+    --primary-font-size: 16px;
+    --primary-line-height: 1.5;
+    --primary-letter-spacing: 0.02em;
+}
+
+body {
+    font-family: var(--primary-font);
+    color: var(--primary-grey-color);
+    font-size: var(--primary-font-size);
+    background-color: var(--primary-white-color);
+    line-height: var(--primary-line-height);
+    letter-spacing: var(--primary-letter-spacing);
+}
+
+.logo {
+    color: var(--primary-blue-color);
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.logo-header {
+    color: var(--primary-black-color);
+}
+
+.logo-footer {
+    color: var(--primary-grey-second-color);
+}
+
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+
+.button {
+    font-family: inherit;
+    cursor: pointer;
+    font-size: var(--primary-font-size);
+    line-height: var(--primary-line-height);
+    background: var(--primary-blue-color);
+    color: var(--primary-white-color);
+    font-weight: 500;
+    letter-spacing: 0.04em;
+}
+
+.button:hover,
+.button:focus {
+    background: var(--active-link-color);
+}
+
+.nav-item .link {
+    color: var(--primary-black-color);
+    font-family: var(--primary-font);
+    font-size: var(--primary-font-size);
+    font-weight: 500;
+    line-height: var(--primary-line-height);
+    letter-spacing: var(--primary-letter-spacing);
+}
+
+.nav-item .link:hover,
+.nav-item .link:focus {
+    color: var(--active-link-color);
+}
+
+.address-contacts {
+    font-style: normal;
+}
+
+.address-contacts .link {
+    color: var(--primary-grey-color);
+    font-style: normal;
+}
+
+.address-contacts .link:hover,
+.address-contacts .link:focus {
+    color: var(--active-link-color);
+}
+
+.headline {
+    background: var(--primary-black-color);
+}
+
+.headline-title {
+    color: var(--primary-white-color);
+    text-align: center;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    line-height: var(--primary-line-height);
+    line-height: 1.07;
+    letter-spacing: var(--primary-letter-spacing);
+}
+
+.title {
+    color: var(--primary-black-color);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    text-transform: capitalize;
+    text-align: center;
+    letter-spacing: var(--primary-letter-spacing);
+}
+
+.section-title,
+.section-title-portfolio {
+    color: var(--primary-black-color);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: var(--primary-letter-spacing);
+}
+
+.button-list {
+    font-family: inherit;
+    border: 1px solid #e7e9fc;
+    background: var(--primary-grey-second-color);
+    color: var(--primary-blue-color);
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    font-size: var(--primary-font-size);
+    line-height: var(--primary-line-height);
+}
+
+.button-list:hover,
+.button-list:focus {
+    cursor: pointer;
+    background: var(--primary-grey-second-color);
+    font-family: inherit;
+    background: var(--active-link-color);
+    color: var(--primary-white-color);
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+}
+
+.section-text {
+    color: var(--primary-grey-color);
+    font-weight: 400;
+}
+
+.section-photo-title {
+    color: var(--primary-black-color);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: var(--primary-letter-spacing);
+}
+
+.section-photo-text,
+.section-text-portfolio {
+    color: var(--primary-grey-color);
+    font-weight: 400;
+}
+
+.section-title-team {
+    background: var(--primary-grey-second-color);
+}
+
+.section-cards {
+    background-color: var(--primary-white-color);
+}
+
+footer {
+    background-color: var(--primary-black-color);
+}
+
+.footer-text {
+    color: var(--primary-grey-second-color);
+    font-weight: 400;
+}
